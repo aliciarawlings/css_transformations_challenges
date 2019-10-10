@@ -1,0 +1,22 @@
+img{
+    width:200px;
+    height:200px;
+    animation-name:star;
+    animation-direction:normal;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+
+@keyframes star {
+from {
+        transform:rotate(0deg);
+        
+    }
+    to{ 
+        transform:rotate(360deg);
+    
+}
